@@ -1,0 +1,21 @@
+# important features for the pictures
+dataset: oxford_pets
+attributes: oxford_pets
+cluster_feature_method: linear # [kmeans, random, linear]
+model_type: clip
+model_size: ViT-B/32
+mahalanobis: false
+division_power: 3
+linear_epochs: 1000
+reinit: true # True/False
+num_attributes: 82 # [16, 32, 64, 128, 256, 512]
+seed: 0
+
+# optimization parameters
+lr: 0.01
+batch_size: 4096
+epochs: 2000
+
+# model structure
+linear_model: [linear, bn, linear]
+score_model: [bn, linear]

@@ -1,0 +1,22 @@
+# important features for the pictures
+dataset: cub
+attributes: cub
+cluster_feature_method: linear # [kmeans, random, linear, similarity]
+model_type: clip
+# model_size: ViT-L/14@336px
+model_size: ViT-B/32
+mahalanobis: true
+division_power: 3
+linear_epochs: 5000
+reinit: false # True/False
+num_attributes: full # [16, 32, 64, 128, 256, 512]
+seed: 0
+
+# optimization parameters
+lr: 0.01
+batch_size: 32
+epochs: 4000
+
+# model structure
+linear_model: [linear, linear] 
+score_model: [linear] 
