@@ -9,11 +9,11 @@ This is the official implementation of our ICCV paper **Learning Concise and Des
 + CUB: Download the dataset from [here](https://www.kaggle.com/datasets/wenewone/cub2002011). The downloaded files are organized as below. 
 + Stanford_Cars: Download the dataset from [here](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset). The downloaded files are organized as below. 
 + CIFAR10: run the code `python main.py --config configs/cifar10.yaml` then the dataset will be automatically downloaded into the folder `./data/cifar-10-batches-py`. 
-+ CIFAR100: run the code `python main.py --config configs/cifar100_bn.yaml` then the datasete will be automatically downloaded into the folder `./data/cifar-100-python`. 
++ CIFAR100: run the code `python main.py --config configs/cifar100_bn.yaml` then the dataset will be automatically downloaded into the folder `./data/cifar-100-python`. 
 + Flowers102: run the code `python main.py --config configs/flower.yaml` then the dataset will be automatically downloaded into the folder `./data/flowers-102`. 
-+ Food101: run the code `python main.py --config configs/food_bn.yaml` then the datasete will be automatically downloaded into the folder `./data/food-101`. 
-+ Oxford-Pets: run the code `python main.py --config configs/oxford_pets_bn.yaml` then the datasete will be automatically downloaded into the folder `./data/oxford-iiit-pet`. 
-+ Imagenet-Animals: Download t he dataset from [here](https://www.image-net.org/) and the downloaded files are organized as below. 
++ Food101: run the code `python main.py --config configs/food_bn.yaml` then the dataset will be automatically downloaded into the folder `./data/food-101`. 
++ Oxford-Pets: run the code `python main.py --config configs/oxford_pets_bn.yaml` then the dataset will be automatically downloaded into the folder `./data/oxford-iiit-pet`. 
++ Imagenet-Animals: Download the dataset from [here](https://www.image-net.org/) and the downloaded files are organized as below. 
 ```
 - data
     - CUB_200_2011
