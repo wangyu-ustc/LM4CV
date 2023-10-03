@@ -5,6 +5,9 @@ This is the official implementation of our ICCV paper **Learning Concise and Des
 + python 3.9.13
 + torchvision == 0.15.2
 
+## Queried Attributes
+![Attributes](assets/attributes.png)
+
 ## Datasets
 + CUB: Download the dataset from [here](https://www.kaggle.com/datasets/wenewone/cub2002011). The downloaded files are organized as below. 
 + Stanford_Cars: Download the dataset from [here](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset). The downloaded files are organized as below. 
